@@ -1,0 +1,16 @@
+body {
+  background-color: $color-bg-primary;
+  color: $color-text-primary;
+  font-family: inherit;
+}
+
+a {
+  color: $color-accent-primary;
+  text-decoration: none;
+}
+
+button {
+  border-radius: $radius-md;
+  cursor: pointer;
+}
+ 

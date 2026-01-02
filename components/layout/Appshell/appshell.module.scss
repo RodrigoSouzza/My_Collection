@@ -1,0 +1,31 @@
+.shell {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 1000vh;
+    gap: 16px;
+    padding: 16px
+}
+
+.sidebar {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 16px;
+}
+
+.topbar {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    padding: 20px;
+    min-height: 0;
+}

@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+
+import { Appshell } from "@/components/layout/Appshell/appshell";
+
 import { Roboto } from "next/font/google";
 import "./globals.scss";
 
@@ -20,7 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={roboto.className}>{children}</body>
+      <body className={roboto.className}>
+        <Appshell>{children}</Appshell>
+      </body>
     </html>
   );
 }
